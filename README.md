@@ -84,7 +84,6 @@ The Pima Indians Diabetes Database comes from the National Institute of Diabetes
 
 ## Limitations
 
-- The original leaked `diabetes.csv` was not available. Its construction is shown by reproducing the old notebook's statistics exactly, not by comparing bytes.
 - The test set is small (154 patients), so test metrics carry wide intervals. The cross-validated estimates are more stable.
 - One cohort of one population: no external validation.
 
