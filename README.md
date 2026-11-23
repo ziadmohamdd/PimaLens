@@ -10,8 +10,6 @@ The final model is logistic regression on **4 routine measurements** (pregnancie
 | Accuracy | **79.2% ± 1.9** | 69.5% at threshold 0.5 |
 | Recall at screening threshold 0.235 | 85.0% | **88.9%** (48 of 54 diabetics) |
 
-Built for **AID427 New Trends in Data Science (E-JUST), Project Phase 1**.
-
 📄 **Full report:** [`docs/phase1_report.html`](docs/phase1_report.html) (download and open in a browser) · **Technical documentation:** [`Diabetes_Prediction_Pima_Indians_–_Phase_1_Technical_Documentation.md`](Diabetes_Prediction_Pima_Indians_–_Phase_1_Technical_Documentation.md)
 
 ---
