@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+_dev_run.ipynb
+combined_diabetes.csv
+*.pyc
+.DS_Store
