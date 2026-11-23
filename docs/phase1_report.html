@@ -4,7 +4,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Pima Diabetes Phase 1</title>
-<meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
@@ -180,6 +179,11 @@ figcaption b { color: var(--ink); font-weight: 600; }
 .foot { color: var(--muted); font-size: var(--step--1); border-top: 2px solid var(--ink); padding-top: 1rem; display: grid; gap: 0.4rem; }
 pre.cmd { margin: 0; background: var(--sheet); border: 1px solid var(--rule); border-radius: 4px; padding: 0.8rem 1rem; overflow-x: auto; font-family: var(--f-mono); font-size: 0.8rem; }
 @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+.team { display: flex; flex-wrap: wrap; gap: 0.5rem 1.6rem; align-items: baseline; padding: 0.7rem 0; border-block: 1px solid var(--rule); }
+.team div { display: grid; gap: 0.05rem; }
+.team b { font-family: var(--f-display); font-weight: 700; }
+.team span { font-family: var(--f-mono); font-size: 0.75rem; color: var(--muted); }
+.team p { flex-basis: 100%; font-size: var(--step--1); color: var(--muted); max-width: none; }
 </style>
 </head>
 <body>
@@ -222,6 +226,12 @@ pre.cmd { margin: 0; background: var(--sheet); border: 1px solid var(--rule); bo
     <header class="masthead">
       <span class="eyebrow">AID427 New Trends in Data Science · Project Phase 1 · Technical report</span>
       <h1>Pima Diabetes Phase 1<small>Screening for diabetes from routine measurements, with a leakage-free evaluation</small></h1>
+      <div class="team" aria-label="Team">
+        <div><b>Ziad Elsayed Fouad</b><span>ID 320230025</span></div>
+        <div><b>Mohamed Adham</b><span>ID 320230001</span></div>
+        <div><b>Mohamed Hussien</b><span>ID 320230008</span></div>
+        <p>Faculty of Computer Science and Information Technology, Egypt-Japan University of Science and Technology (E-JUST), Alexandria, Egypt</p>
+      </div>
       <p class="lede">Logistic regression on four routine measurements (pregnancies, 2-hour glucose, BMI and family-history score) reaches a cross-validated ROC-AUC of 0.846 and a mean 5-fold accuracy of 79.2%. Scored once on 154 held-out patients, it reaches AUC 0.811. At the screening threshold it catches 48 of 54 diabetics.</p>
       <div class="verdict">
         <span class="chip ok">Raw data verified against OpenML checksum</span>

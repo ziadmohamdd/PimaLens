@@ -1,5 +1,13 @@
 ## Diabetes Prediction (Pima Indians): Phase 1 Technical Documentation (revised)
 
+**Team.** Faculty of Computer Science and Information Technology, Egypt-Japan University of Science and Technology (E-JUST), Alexandria, Egypt.
+
+| Name | Student ID |
+|---|---|
+| Ziad Elsayed Fouad | 320230025 |
+| Mohamed Adham | 320230001 |
+| Mohamed Hussien | 320230008 |
+
 Revised 2026-11-23 from a clean, top-to-bottom execution of `phase1.ipynb`. It replaces the version of 2026-11-21, which is kept unchanged in `archive/Technical_Documentation_original_2026-11-21.md`. The pre-audit notebook, with its original outputs, is in `archive/phase1_original_2026-11-23.ipynb`. Section numbers in square brackets, such as [§8], refer to notebook sections.
 
 ## 1. Executive summary
